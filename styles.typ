@@ -1,3 +1,5 @@
+#import "@preview/cetz:0.4.2"
+
 #let primary-color = rgb("#f00024")
 
 #let fmt(number, precision: 3,  sci: true) = {
@@ -228,14 +230,7 @@
   set list(marker: text(primary-color)[-])
     set enum(
     numbering: it => context {
-      let headings = counter(heading).get()
-      let sec = headings.at(0)
-      if headings.len() > 1 {
-        let subsec = headings.at(1)
-        strong(text(primary-color)[#sec.#subsec.#it.])
-      } else {
-        strong(text(primary-color)[#sec.#it.])
-      }
+      strong(text(primary-color)[#it.])
   })
 
   

@@ -14,7 +14,15 @@
 
 
 #include "chapters/chapther-01.typ"
+
+#pagebreak()
 #include "chapters/chapther-02.typ"
+
+#pagebreak()
 #include "chapters/chapther-03.typ"
+
+#pagebreak()
 #include "chapters/chapther-04.typ"
+
+#pagebreak()
 #include "chapters/chapther-05.typ"
