@@ -74,7 +74,7 @@
       column-gutter: 15pt,
       align: (left+bottom, right+horizon),
       [
-        #cite(<Halliday2>, form: "full")
+        #cite(<Leithold1>, form: "full")
       ],
       [
         #image("assets/images/capa.png", width: 3cm)

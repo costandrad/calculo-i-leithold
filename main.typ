@@ -2,10 +2,10 @@
 
 #show: template.with(
   book: (
-    title: [Título do Livro],
+    title: [O Cálculo com Geometria Analítica I],
     author: (
-      long: [Nome Sobrenome],
-      short: [Sobrenome, N.]
+      long: [Louis Leithold],
+      short: [Leithold, L.]
     )
   ),
   author: [Igo da Costa Andrade]
